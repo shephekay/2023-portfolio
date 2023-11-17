@@ -1,0 +1,82 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  /* background-color: #1F1F1F; */
+  background-color: #222049;
+  display: flex
+}
+.App-header {
+  position:fixed
+  /* height: 45px;
+  padding: 0 */
+}
+
+// .mdc-top-app-bar {
+//   background-color: #222049;
+//   position: sticky
+// }
+.App {
+  height: 100vh;
+  width: 100vw;
+  margin: none;
+  padding: none
+}
+Link {
+  text-decoration: none;
+}
+h1 {
+  font-family: sans-serif;
+  color:rgb(226, 247, 250);
+  margin: 0;
+  font-size: xxx-large;
+}
+
+/* Basic styles for the navigation rail */
+.navigation-rail {
+  margin-top: 5rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* background-color: #333; */
+  /* height:80vh; */
+  width: 2rem; /* Adjust the width as needed */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+}
+
+/* Style for individual navigation items */
+.nav-item {
+  font-size: 2rem;
+  font-family: sans-serif;
+  text-decoration: none;
+  transform-origin: center;
+  transform: rotate(-90deg);
+  color:rgb(226, 247, 250);
+  padding: 10px;
+  cursor:help;
+  white-space: nowrap; /* Prevent text from wrapping */
+  // background-color: white;
+}
+
+.nav-item:hover {
+  // background-color: #555;
+  // color: red;
+  //cursor: url('put image url here')
+  /* Add other hover styles as needed */
+}
+
+/* Styles for content area */
+.body {
+  margin-left: 60px; /* Match the width of the navigation rail */
+  padding: 20px; /* Add padding as needed */
+}
+
+/* You can add more styles and adjust colors, fonts, and sizes to fit your design */

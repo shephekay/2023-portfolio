@@ -1,0 +1,43 @@
+.body {
+    /* display: flex; */
+    /* height: 100%;
+    width: 100%; */
+  }
+  .Navbar {
+    position: absolute;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    /* rotate: -90deg; */
+    height: 100%;
+    width: 1rem;
+    /* display: inline-block; */
+    display: table;
+    /* flex-direction: column; */
+    /* display: flex; */
+    
+  }
+  
+  .Navbox {
+    font-size: 2rem;
+    /* position: absolute; */
+    left: -2rem;
+    height: 30%;
+    display: table-cell; 
+    /* text-align:left; */
+    /* vertical-align: middle; */
+    margin: 0;
+    padding: 0;
+    width: 1rem;
+    /* display: inline-block; */
+    /* text-align: center; */
+    rotate: -90deg; 
+    color:aliceblue;
+    /* margin: 10rem -1rem 0rem 0rem; */
+    /* height: 100%; */
+  }
+  
+  .rotated-text {
+    /* rotate: -90deg; */
+    /* align-items:flex-start  */
+  }
